@@ -5,11 +5,8 @@ document.querySelector(".img2").setAttribute("src","Images/dice"+number2+".png")
 
 if(number1>number2){
     document.querySelector("h1").innerHTML="Player 1 Wins!";
-}
-
-if (number1<number2){
+} else if (number1<number2){
     document.querySelector("h1").innerHTML="Player 2 Wins!";
-}
-if(number1===number2) {
+} else {
     document.querySelector("h1").innerHTML="Draw";
 }
